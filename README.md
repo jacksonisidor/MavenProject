@@ -21,4 +21,4 @@ This repository contains my personal work contributed to the Maven Project, as w
 ## Project Structure
   - `maven_processing.ipynb`: A Jupyter Notebook cleaning, processing, and analyzing COVID-19 data.
   - `Vaccination_ARIMAX.ipynb`: A Jupyter Notebook containing all the steps to develop a robust ARIMAX model with an interpretation and recommendation of use.
-  - `MavenReport.pdf`: My team's conclusive report outlining our findings in LaTeX formatting. 
+  - `MAVEN_Project.pdf`: My team's conclusive report outlining our findings with LaTeX formatting. 
