@@ -26,5 +26,5 @@ Data citation as provided by Google Health:
 
 ## Project Structure
   - `maven_processing.ipynb`: A Jupyter Notebook cleaning, processing, and analyzing COVID-19 data.
-  - `COVID_ARIMAX.ipynb`: A Jupyter Notebook containing all the steps to develop a robust ARIMAX model with an interpretation and recommendation of use.
+  - `COVID_ARIMAX_2.ipynb`: A Jupyter Notebook containing all the steps to develop a robust ARIMAX model with an interpretation and recommendation of use.
   - `MAVEN_Project.pdf`: My team's conclusive report outlining our findings with LaTeX formatting. 
