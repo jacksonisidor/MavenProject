@@ -9,10 +9,12 @@ Q2) How does population heterogeneity affect vaccination behavior in a community
 ## Overview
 This repository contains my personal work contributed to the Maven Project, as well as the team's conclusive report. Employing a variety of methods and tools, I primarily utilized Python and SQL for data processing, cleaning, and analysis. The culmination of these steps lead to the construction of an ARIMAX model incorporating exogenous variables to forecast vaccination trends, optimizing predictive accuracy over several months. 
 
+*Note:* The model currently in this repository is not the exact same as the one in the report because I have since updated it to prepare for another publication. 
+
 ## Summary of Final Model
 The final model constructed in this notebook leveraged cross-validation with a nested grid search to optimize parameters on each fold, ensuring robust predictive capabilities. The preprocessing stage involved smoothing both the new daily vaccination data and exogenous variables related to mobility, enabling the capture of essential trends. 
 
-Impressively, the model showcased a high R-squared value of 0.93, indicating a 93% explanation of variance. The Root Mean Squared Error (RMSE) was respectively low, given the scale of actual values. A 95% confidence interval was constructed around the predictions, which was able to encompass the entire range of actual new daily vaccinations. This result showcases the model's reliability and represents a powerful tool for anticipating vaccination trends.
+Impressively, the model showcased a high R-squared value of 0.93, indicating a 93% explanation of variance. The Root Mean Squared Error (RMSE) was moderately low, given the scale of actual values. A 95% confidence interval was constructed around the predictions, which was able to encompass the entire range of actual new daily vaccinations. This result showcases the model's reliability and represents a powerful tool for anticipating vaccination trends.
 
 ## Data Source
 Data citation as provided by Google Health: 
